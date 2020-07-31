@@ -41,12 +41,13 @@ footer:
 social:
   - title: linkedin
     url: https://uk.linkedin.com/in/david-wesseling-a511748a
-  - title: stack-overflow
-    url: 
-  - title: bitbucket
-    url: http://bitbucket.org/jekyll
   - title: github
     url: https://github.com/Deign77
+  - title: hackerrank
+    url: https://www.hackerrank.com/david_wesseling1
+  - title: codewars
+    url: https://www.codewars.com/users/Deign
+    
 
 # Postal address (add as many lines as necessary)
 address:
