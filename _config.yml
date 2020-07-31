@@ -33,7 +33,7 @@ color:
 # Footer settings
 footer:
   copyright: Dr. Henry Jekyll
-  location: ---------
+  location: location
   social: Around the Web
   credits: Credits
 
@@ -51,8 +51,8 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: -----
-  - line: --------
+  - line: texttext
+  - line: moretext
 
 # Credits content
 credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
