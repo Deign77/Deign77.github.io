@@ -2,7 +2,7 @@
 title: David Wesseling 
 email: david.wesseling1@gmail.com
 url: https://deign77.github.io
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+description: "Portfolio of David Wesseling"
 keywords: "keyword, keyword, third keyword"
 skills: "Self-taught Developer"
 meta_author: LastName FirstName
@@ -33,14 +33,14 @@ color:
 # Footer settings
 footer:
   copyright: Dr. Henry Jekyll
-  location: LocationLocationLocation
+  location: ---------
   social: Around the Web
   credits: Credits
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
+  - title: linkedin
+    url: https://uk.linkedin.com/in/david-wesseling-a511748a
   - title: stack-overflow
     url: 
   - title: bitbucket
@@ -50,8 +50,8 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: A place
-  - line: that is somewhere
+  - line: -----
+  - line: --------
 
 # Credits content
 credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
