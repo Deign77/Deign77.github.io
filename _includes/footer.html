@@ -1,0 +1,57 @@
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-4">
+                        <h3>{{ site.footer.location }}</h3>
+                        <p>
+                            {% for adress in site.address %}
+                                {{ adress.line }} <br>
+		                    {% endfor %}
+                        </p>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>{{ site.footer.social }}</h3>
+                        <ul class="list-inline">
+                            <li>
+                                <a href="https://uk.linkedin.com/in/david-wesseling-a511748a" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                            </li>
+		                    
+                            <li>
+                                <a href="https://github.com/Deign77" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
+                            </li>
+		                    
+                            <li>
+                                <a href="https://www.hackerrank.com/david_wesseling1" class="btn-social btn-outline"><i class="fa fa-fw fa-hackerrank"></i></a>
+                            </li>
+		                    
+                            <li>
+			    	<a href="https://www.codewars.com/users/Deign" class="btn-outline iconify" data-icon="simple-icons:codewars" data-inline="false"></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>{{ site.footer.credits }}</h3>
+                        <p>{{ site.credits }}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        Copyright &copy; {{ site.footer.copyright }} 20{{ site.time | date: '%y' }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top page-scroll visible-xs visible-sm">
+        <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
