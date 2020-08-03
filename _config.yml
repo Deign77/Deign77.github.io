@@ -4,8 +4,8 @@ email: david.wesseling1@gmail.com
 url: https://deign77.github.io
 description: "Portfolio of David Wesseling"
 keywords: "keyword, keyword, third keyword"
-skills: "Self-taught Developer"
-meta_author: LastName FirstName
+skills: "Self-taught developer"
+meta_author: Wesseling David
 
 # Google webmaster tools
 google_verify:
@@ -34,7 +34,7 @@ color:
 footer:
   copyright: Dr. Henry Jekyll
   location: location
-  social: Around the Web
+  social: Find me on
   credits: Credits
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
