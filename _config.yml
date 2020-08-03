@@ -48,7 +48,6 @@ social:
   - title: codewars
     url: https://www.codewars.com/users/Deign
     
-
 # Postal address (add as many lines as necessary)
 address:
   - line: texttext
@@ -68,4 +67,3 @@ defaults:
       type: "posts"
     values:
       permalink: ""
->>>>>>> fe6834df06723315877411d62cdde0414d6cf580
