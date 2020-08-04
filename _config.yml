@@ -27,7 +27,7 @@ disqus_shortname: myshortname
 color:
   primary: 4b2e83 #4b2e83
   primary-rgb: "24,288,156" #"128,179,255"
-  secondary: A9A9A9 #A9A9A9
+  secondary: B9B9B9 #B9B9B9
   secondary-dark: 233140 #A2122F
 
 # Footer settings
