@@ -426,6 +426,7 @@ footer .footer-below {
 }
 
 .portfolio-modal .modal-content h2 {
+    color: #{{ site.color.secondary-dark }};
     margin: 0;
     font-size: 3em;
 }
