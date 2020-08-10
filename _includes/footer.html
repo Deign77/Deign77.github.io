@@ -1,40 +1,45 @@
     <!-- Footer -->
     <footer class="text-center">
         <div class="footer-above">
-            <div class="container">
+            <div class="container-fluid">
                 <div class="row">
-                    <div class="footer-col col-md-4">
-                        <h3>{{ site.footer.location }}</h3>
-                        <p>
-                            {% for adress in site.address %}
-                                {{ adress.line }} <br>
-		                    {% endfor %}
+                    <div class="footer-col col-md-3 col-md-offset-2">
+                        <h3>{{ site.footer.lColumn }}</h3>
+                        <hr class="star-light" />
+                        <p style="font-size:25px; ">
+                            <span style=" font-size:45px;"> C# </span>
+                            <span style="font-size:30"> Github </span>
+                            <span style=" font-size:40px;"> Visual Studio </span>
+                            <span style=" font-size:30px;"> HTML </span>
+                            <span style="font-size:20"> CSS </span>
+                            <span style="font-size:20"> Python </span>
                         </p>
+
                     </div>
-                    <div class="footer-col col-md-4">
+                    <div class="footer-col col-md-2" style="top:190px;">
                         <h3>{{ site.footer.social }}</h3>
                         <ul class="list-inline">
-			    <li>
-                                <a href="https://uk.linkedin.com/in/david-wesseling-a511748a"><img src="https://github.com/Deign77/deign77.github.io/blob/master/Social%20media%20Icons/linkedin-round-white%20IN.png?raw=true" border="0" width="45" height="45" alt="IMG"></a>
-                            </li>
-				
-                            <li>
-                                <a href="https://github.com/Deign77"><img src="https://github.com/Deign77/deign77.github.io/blob/master/Social%20media%20Icons/GitHub-Mark-120px-plus.png?raw=true" border="0" width="45" height="45" alt="IMG"></a>
-                            </li>
-		    
-                            <li>
-                                <a href="https://www.hackerrank.com/david_wesseling1"><img src="https://raw.githubusercontent.com/Deign77/deign77.github.io/master/Social%20media%20Icons/hackerrank%20white%20H.webp" border="0" width="45" height="45" alt="IMG"></a>
-                            </li>
-		                  
-			     <li>
-			    	<a href="https://www.codewars.com/users/Deign"><img src="https://raw.githubusercontent.com/Deign77/deign77.github.io/master/Social%20media%20Icons/codewars-white-arms.webp" border="0" width="45" height="45" alt="IMG"></a>
-                            </li>
+                            
+                            <li> <a href="https://uk.linkedin.com/in/david-wesseling-a511748a"><img src="/img/social-media-icons/linkedin-round-white-IN.png" border="0" width="45" height="45" alt="IMG"></a> </li>
+
+                            <li> <a href="https://github.com/Deign77"><img src="/img/social-media-icons/black-github-icon.png" border="0" width="45" height="45" alt="IMG"></a> </li>
+
+                            <li> <a href="https://www.hackerrank.com/david_wesseling1"><img src="/img/social-media-icons/hackerrank white H.webp" border="0" width="45" height="45" alt="IMG"></a> </li>
+
+                            <li> <a href="https://www.codewars.com/users/Deign"><img src="/img/social-media-icons/codewars-white-arms.webp" border="0" width="45" height="45" alt="IMG"></a> </li>
 
                         </ul>
                     </div>
-                    <div class="footer-col col-md-4">
-                        <h3>{{ site.footer.credits }}</h3>
-                        <p>{{ site.credits }}</p>
+                    <div class="footer-col col-md-3 ">
+                        <h3>{{ site.footer.rColumn }}</h3>
+                        <hr class="star-light" />
+                        <p style="font-size:25px; ">
+                            <span style=" font-size:40px;"> Codecademy </span>
+                            <span style="font-size:30"> Hackerrank </span>
+                            <span style=" font-size:30px;"> Pluralsight </span>
+                            <span style="font-size:20"> Stack Overflow </span>
+                            <span style=" font-size:40px;"> Codewars </span>
+                        </p>
                     </div>
                 </div>
             </div>
@@ -43,7 +48,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        Copyright &copy; {{ site.footer.copyright }} 20{{ site.time | date: '%y' }}
+                        {{ site.footer.copyright }}  &copy; 20{{ site.time | date: '%y' }} 
                     </div>
                 </div>
             </div>

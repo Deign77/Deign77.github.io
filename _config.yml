@@ -4,7 +4,7 @@ email: david.wesseling1@gmail.com
 url: https://deign77.github.io
 description: "Portfolio of David Wesseling"
 keywords: "keyword, keyword, third keyword"
-skills: "Self-taught Developer"
+subtitle: "Self-taught Developer"
 meta_author: Wesseling David
 
 # Google webmaster tools
@@ -21,11 +21,11 @@ contact: static
 
 # If you use disqus you need disqus shortname
 # https://help.disqus.com/customer/portal/articles/466208
-disqus_shortname: myshortname
+disqus_shortname: mydefaultdisqusshortname
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: 4b2e83 #4b2e83
+  primary: 3f2375 #3f2375
   primary-rgb: "24,288,156" #"128,179,255"
   secondary: A9A9A9 #A9A9A9
   secondary-dark: 211730 #A2122F
@@ -34,10 +34,11 @@ color:
 
 # Footer settings
 footer:
-  copyright: Dr. Henry Jekyll
-  location: location
+  copyright: David Wesseling
   social: Find me on
-  credits: Credits
+  lColumn: Skills
+  rColumn: Learning Resources
+  
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
@@ -50,13 +51,11 @@ social:
   - title: codewars
     url: https://www.codewars.com/users/Deign
     
-# Postal address (add as many lines as necessary)
-address:
-  - line: texttext
-  - line: moretext
-
-# Credits content
-credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+# Skill List (add as many lines as necessary)
+# Formerly Address list
+skills: 
+  - sk: 
+  - sk: see dull
 
 # Build settings
 markdown: kramdown
@@ -69,3 +68,9 @@ defaults:
       type: "posts"
     values:
       permalink: ""
+  
+#Learning Resources
+# Formerly Credits content
+resources:
+ - res: Codecademy
+ - res: Stack Overflow
