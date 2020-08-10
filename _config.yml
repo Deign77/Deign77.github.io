@@ -38,7 +38,7 @@ footer:
   social: Find me on
   lColumn: Skills
   rColumn: Learning Resources
-  
+
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
@@ -50,12 +50,6 @@ social:
     url: https://www.hackerrank.com/david_wesseling1
   - title: codewars
     url: https://www.codewars.com/users/Deign
-    
-# Skill List (add as many lines as necessary)
-# Formerly Address list
-skills: 
-  - sk: 
-  - sk: see dull
 
 # Build settings
 markdown: kramdown
@@ -72,5 +66,5 @@ defaults:
 #Learning Resources
 # Formerly Credits content
 resources:
- - res: Codecademy
- - res: Stack Overflow
+     - res: Codecademy
+     - res: Stack Overflow
