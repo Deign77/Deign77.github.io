@@ -220,7 +220,7 @@ section.success {
 }
 
 #portfolio .portfolio-item .portfolio-link .caption:hover {
-    opacity: 1;
+    opacity: 0.7;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption .caption-content {
@@ -290,7 +290,7 @@ section.success {
 }
 
 .btn-outline:hover,
-.btn-outline:focus,
+.bt-outline:focus,
 .btn-outline:active,
 .btn-outline.active {
     border: solid 2px #fff;
