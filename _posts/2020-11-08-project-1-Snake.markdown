@@ -6,8 +6,9 @@ date: 15/05/2020
 img: SnakeSnip.png
 img-caption: Snake game 
 img2: SnakeSnip-with-OptionsMenu.png
-img2-caption: with Options Menu
+img2-caption: Snake game with options menu
 alt: image-alt
+url: https://github.com/Deign77/SnakeGame
 project-date: May 2020
 client: Practice
 category: Windows Forms App

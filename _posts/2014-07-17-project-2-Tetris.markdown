@@ -8,6 +8,7 @@ img-caption: Tetris game
 img2: TetrisSnip-with-OptionsMenu.png
 img2-caption: with Options Menu
 alt: image-alt
+url: https://github.com/Deign77/TetrisGame
 project-date: June 2020
 client: Practice
 category: Windows Forms App
