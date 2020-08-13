@@ -10,28 +10,25 @@
             </div>
             <div class="portfolio-flex-row">
                 {% for post in site.posts %}
-                    <div class="portfolio-flex-item portfolio-item">
-                        <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <i class="fa fa-search-plus fa-3x"></i>
-                                </div>
 
+                <div class="portfolio-flex-item portfolio-item">
+
+                    <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                                <br />
+                                <div>{{post.title}}</div>
                             </div>
-
-                            <img src="img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
-
-
-                            <!--change this to something better-->
-                            <div class="portfolio-flex-row">
-                                <figcaption style="color:black;">{{post.title}}</figcaption>
-
-                                <a href="{{ post.url }}" class="btn btn-primary">View Code</a>
-
-                            </div>
-
-                        </a>
+                        </div>
+                        <img src="img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
+                    </a>
+                    <figcaption style="color:#fff; background-color: #{{site.color.primary}}; font-size: 22px;  text-align:center;">{{post.title}}</figcaption>
+                    <div class="portfolio-flex-row">
+                        <a href="#portfolioModal-{{ post.modal-id }}" class="btn btn-primary" data-toggle="modal" style="width: 50%; background-color:#{{site.color.primary}}"><i class="fa fa-search-plus"></i> View details</a>
+                        <a href=" {{post.youarrell}}" class="btn btn-primary" style="width: 50%; background-color:#{{site.color.primary}}"><i class="fa fa-github"></i> View code</a>
                     </div>
+                </div>
                 {% endfor %}
             </div>
         </div>
