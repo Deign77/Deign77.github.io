@@ -6,7 +6,7 @@ date: 30/05/2020
 img: TetrisSnip.png
 img-caption: Tetris game
 img2: TetrisSnip-with-OptionsMenu.png
-img2-caption: with Options Menu
+img2-caption: Tetris with options menu
 alt: image-alt
 youarrell: "https://github.com/Deign77/TetrisGame"
 project-date: June 2020

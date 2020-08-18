@@ -9,5 +9,5 @@ youarrell: https://github.com/Deign77/ConnectFour
 project-date: March 2020
 client: Practice	
 category: Windows Forms App
-description: My first WinForms project. 
+description: My first WinForms project. You can play against the computer or another player or even watch the computer play against itself. 
 ---
