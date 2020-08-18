@@ -213,7 +213,7 @@ section.success {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: rgba({{ site.color.primary-rgb }},.9);
+    background: #{{site.color.primary-light}};
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
@@ -447,6 +447,7 @@ footer span {
 }
 
 .portfolio-modal .modal-content {
+    color: #{{ site.color.primary-dark }};
     padding: 100px 0;
     min-height: 100%;
     border: 0;
