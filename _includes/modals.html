@@ -24,9 +24,15 @@
                                 <figcaption style="margin-bottom:40px; margin-top:-20px;"> {{post.img2-caption}} </figcaption>
                             </figure>
                             {% endif %}
-                            
+
+                            <a href=" {{post.youarrell}}" class="btn btn-primary" style="width: 50%; font-size:20px; background-color:#{{site.color.primary}}"><i class="fa fa-github fa-fw"></i> View code on GitHub </a>
+                            <br />
+                            <br />
+
+
+
                             <p>{{ post.description }}</p>
-                         
+
                             <ul class="list-inline item-details">
                                 {% if post.client %}
                                 <li>
