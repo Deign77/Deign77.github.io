@@ -24,6 +24,21 @@ a.active {
     color: #{{ site.color.primary }};
 }
 
+#more {
+    display: none;
+}
+
+.readmorebtn{
+    opacity: 0.6;
+    outline: none;
+    background-color: #{{site.color.primary}};
+}
+
+.readmorebtn:hover{
+    opacity: 1;
+}
+
+
 h1,
 h2,
 h3,
